@@ -38,7 +38,9 @@ window.addEventListener('load', function(){
     });
 
     dotSlide.addEventListener('click', function (event) {
-        images.goToSlide(event.target.id)
+        if (event.target.id != ''){
+            images.goToSlide(event.target.id);
+        }
     })
 })
 
