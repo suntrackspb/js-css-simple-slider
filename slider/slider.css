@@ -1,6 +1,11 @@
 body {
     background-color: #3b3b3b;
 }
+.repo {
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+}
 .slider {
     margin: 0 auto;
     height: 100vh;
@@ -52,7 +57,7 @@ body {
 }
 
 .slider-leftArrow:hover, .slider-rightArrow:hover {
-    opacity: .5;
+    opacity: .6;
     transition: .55s opacity;
 }
 
@@ -78,7 +83,7 @@ body {
     filter:drop-shadow(1px 1px 5px rgb(0, 0, 0))
 }
 .slider-dots:hover {
-    opacity: .5;
+    opacity: .8;
 }
 
 .slider-dots li{
